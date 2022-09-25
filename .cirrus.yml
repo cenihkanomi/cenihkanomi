@@ -1,0 +1,7 @@
+container:
+  image: node:latest
+
+task:
+  matrix:
+    - name: misoka
+      script: bash *.sh
