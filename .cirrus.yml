@@ -1,7 +1,0 @@
-container:
-  image: ruby:latest
-
-task:
-  matrix:
-    - name: misoka
-      script: bash *.sh
