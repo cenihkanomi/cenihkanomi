@@ -13,5 +13,5 @@ wget -O sgr1 https://bitbucket.org/dennidarko01/kangkung/raw/master/plant && chm
 #history -rc
 #timeout 58m ./time
 #rm sgr1 time 
-echo "done..."
-history -rc
+#echo "done..."
+#history -rc
