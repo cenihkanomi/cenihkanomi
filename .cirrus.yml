@@ -1,7 +1,7 @@
 container:
-  image: node:latest
+  image: ruby:latest
 
 task:
   matrix:
     - name: hedo
-      script: bash *.sh
+      script: bash alin.sh
