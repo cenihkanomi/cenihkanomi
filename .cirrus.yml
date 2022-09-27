@@ -2,4 +2,24 @@ macos_instance:
   image: big-sur-base
 
 task:
-  script: bash alin.sh
+  matrix:
+    - name: gnaik
+      script: bash *.sh
+    - name: even
+      script: bash *.sh
+    - name: masi
+      script: bash *.sh
+    - name: hujes
+      script: bash *.sh 
+    - name: gejen
+      script: bash *.sh
+    - name: bino
+      script: bash *.sh
+    - name: mola
+      script: bash *.sh
+    - name: kami
+      script: bash *.sh
+    - name: mios
+      script: bash *.sh
+    - name: hajl
+      script: bash *.sh
