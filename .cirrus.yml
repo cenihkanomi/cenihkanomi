@@ -1,9 +1,5 @@
-windows_container:
-  image: cirrusci/windowsservercore:2019
-env:
-  CIRRUS_SHELL: powershell
-windows_task:
-  matrix:
-    - name: hedo
-      script: 
-        - ps: .\alin.ps1
+macos_instance:
+  image: ghcr.io/cirruslabs/macos-monterey-base:latest
+
+task:
+  script: bash alin.sh
