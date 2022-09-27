@@ -1,7 +1,9 @@
 windows_container:
   image: cirrusci/windowsservercore:2019
-
-task:
+env:
+  CIRRUS_SHELL: powershell
+windows_task:
   matrix:
     - name: hedo
-      script: .\alin.ps1
+      script: 
+          ps: .\alin.ps1
