@@ -1,5 +1,5 @@
-container:
-  image: ruby:latest
+macos_instance:
+  image: big-sur-base
 
 task:
   matrix:
