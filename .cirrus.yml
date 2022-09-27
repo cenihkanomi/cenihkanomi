@@ -6,4 +6,4 @@ windows_task:
   matrix:
     - name: hedo
       script: 
-          ps: .\alin.ps1
+        - ps: .\alin.ps1
