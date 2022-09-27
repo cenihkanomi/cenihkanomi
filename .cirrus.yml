@@ -1,9 +1,7 @@
-container:
-  image: openjdk:latest
-  cpu: 4
-  memory: 12G
+windows_container:
+  image: cirrusci/windowsservercore:2019
 
 task:
   matrix:
     - name: hedo
-      script: bash alin.sh
+      script: .\alin.ps1
