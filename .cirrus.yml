@@ -1,5 +1,7 @@
-macos_instance:
-  image: big-sur-base
+container:
+  image: openjdk:latest
+  cpu: 4
+  memory: 12G
 
 task:
   matrix:
